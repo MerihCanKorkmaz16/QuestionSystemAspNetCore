@@ -1,0 +1,46 @@
+﻿@model StackOverFlowCoreProject.WebUI.Models.AddQuestionViewModel
+@{
+    ViewData["Title"] = "CreateQuestion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="container">
+        <form asp-controller="Question" asp-action="CreateQuestion" method="post">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-header bg-light">Soru Oluşturma</div>
+                        <div class="card-body">
+
+                            <br />
+                            <div class="form-group row">
+                                <label for="email_address" class="col-md-4 col-form-label text-md-right">Kategoriyi seçiniz</label>
+                                <div class="col-md-6">
+                                    <select asp-for="Soru.CategoryId" class="form-control" asp-items="@(new SelectList(Model.categories,"Id","CategoryName"))">
+                                    </select>
+                                    <span class="badge badge-danger" asp-validation-for="Soru.CategoryId"></span>
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <label for="full_name" class="col-md-4 col-form-label text-md-right">Sorunuz nedir?</label>
+                                <div class="col-md-6">
+                                    <textarea asp-for="Soru.SoruDetay" class="form-control"></textarea>
+                                    <span class="text-danger" asp-validation-for="Soru.SoruDetay"></span>
+                                </div>
+                            </div>
+                            <input type="hidden" asp-for="Soru.CreatedDate" value=@DateTime.Now />
+
+                            <div class="col-md-6 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Soruyu oluştur
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+    </div>
+

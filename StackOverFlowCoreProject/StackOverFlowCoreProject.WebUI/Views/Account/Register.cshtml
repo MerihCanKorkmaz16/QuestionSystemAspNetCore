@@ -1,0 +1,82 @@
+﻿@model StackOverFlowCoreProject.WebUI.Models.Account.RegisterViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Register</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="card bg-light">
+            <article class="card-body mx-auto" style="max-width: 400px;">
+                @if (TempData["message"]!=null)
+                {
+                    <div class="alert alert-info" style="text-align:center">
+                        @TempData["message"]
+                    </div>
+                }
+                <h4 class="card-title mt-3 text-center">Hesap Oluşturma</h4>
+                <form asp-controller="Account" asp-action="Register">
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input asp-for="FirstName" class="form-control" placeholder="Adınız" type="text">
+                    </div>
+                    <span class="text-danger" asp-validation-for="FirstName"></span>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input asp-for="LastName" class="form-control" placeholder="Soyadınız" type="text">
+                    </div>
+                    <span class="text-danger" asp-validation-for="LastName"></span>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
+                        </div>
+                        <input asp-for="Email" class="form-control" placeholder="Mail adresiniz" type="email">
+                    </div>
+                    <span class="text-danger" asp-validation-for="Email"></span>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                        </div>
+                        <input asp-for="UserName" class="form-control" placeholder="Kullanıcı adı giriniz" type="text">
+                    </div>
+                    <span class="text-danger" asp-validation-for="UserName"></span>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input asp-for="Password" class="form-control" placeholder="Şifreniz" type="password">
+                    </div> <!-- form-group// -->
+                    <span class="text-danger" asp-validation-for="Password"></span>
+                    <div class="form-group input-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
+                        </div>
+                        <input asp-for="ConfirmPassword" class="form-control" placeholder="Şifre Tekrar" type="password">
+                    </div> <!-- form-group// -->
+                    <span class="text-danger" asp-validation-for="ConfirmPassword"></span>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-block"> Hesabımı oluştur  </button>
+                    </div> <!-- form-group// -->
+                    <p class="text-center">Hesabınız var mı ? <a href="/Account/Login">Giriş yapınız</a> </p>
+                </form>
+            </article>
+        </div>
+
+    </div>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+</body>
+</html>

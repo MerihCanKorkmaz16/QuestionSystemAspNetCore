@@ -1,0 +1,38 @@
+﻿@model StackOverFlowCoreProject.WebUI.Models.YorumEklemeViewModel
+@{
+    ViewData["Title"] = "Comment";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (!User.Identity.IsAuthenticated)
+{
+    <input type="hidden" name="soruId" />
+    <div class="card bg-light">
+        <article class="card-body mx-auto" style="max-width: 400px;text-align:center">
+            <h4 class="card-title mt-3 text-center">Yorum yapmak için önce giriş yapınız</h4>
+            <div><a class="btn btn-group-lg btn-primary" href="/Account/Login">Giriş Yap</a></div>
+        </article>
+    </div>
+}
+else
+{
+    <div class="card bg-light">
+        <article class="card-body mx-auto" style="max-width: 800px;">
+            <h4 class="card-title mt-3 text-center">Hesap Oluşturma</h4>
+            <form asp-controller="Question" asp-action="Comment">
+                <input type="hidden" asp-for="soruId"/>
+                <input type="hidden" asp-for="Yorum.CreatedDate" value=@DateTime.Now/>
+                <div class="form-group input-group">
+                    <textarea class="form-control" asp-for="Yorum.YorumDetay" rows="3" placeholder="Yorumunuzu giriniz." autofocus="autofocus" maxlength="500" style="width:200px"></textarea>
+                </div>
+                    <span class="text-danger" asp-validation-for="Yorum.YorumDetay"></span>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary btn-block"> Cevabımı gönder  </button>
+                </div> <!-- form-group// -->
+            </form>
+        </article>
+    </div>
+}
+
+
+

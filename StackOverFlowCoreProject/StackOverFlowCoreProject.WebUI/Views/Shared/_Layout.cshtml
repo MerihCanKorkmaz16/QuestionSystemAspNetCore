@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hoşgeldiniz</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/font-awesome/css/font-awesome.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <br />
+        <nav class="navbar navbar-expand-xl" style="background-color: #e3f2fd;">
+            <a class="navbar-brand" href="#">Stackoverflow</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/Home/Index">AnaSayfa <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">İletişim</a>
+                    </li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Question/CreateQuestion">Hadi Soru Sor!</a>
+                        </li>
+                    }
+
+                </ul>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <div class="form-inline my-2 my-sm-0">
+                        <div class="nav-item dropdown mr-sm-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                @User.Identity.Name
+                            </a>
+                            @await Component.InvokeAsync("UserSummary")
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="form-inline my-2 my-lg-0">
+                        <div class="mr-sm-2"><a href="/Account/Login"><i class="fa fa-sign-in"></i> Giriş Yap</a></div>
+                        <div class="my-sm-0"><a href="/Account/Register"><i class="fa fa-sign-out"></i> Kayıt Ol</a></div>
+                    </div>
+                }
+
+            </div>
+        </nav>
+        <br />
+        <div class="row">
+            <div class="col-md-2">@await Component.InvokeAsync("CategoryList") </div>
+            <div class="col-md-10">
+                <div class="jumbotron">
+                    @RenderBody()
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

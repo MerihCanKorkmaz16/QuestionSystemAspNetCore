@@ -1,0 +1,46 @@
+﻿@model StackOverFlowCoreProject.WebUI.Models.SoruListViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (TempData["message2"] != null)
+{
+    <div class="alert alert-success" style="text-align:center">
+        @TempData["message2"]
+    </div>
+}
+@foreach (var item in Model.Sorular)
+{
+    <div class="card text-center">
+        <div class="card-header">
+            @item.CategoryName
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">@item.CreatedDate.ToString("dd MMMM, yyyy") tarihinde @item.FirstName @item.LAstName isimli kullanıcı soru oluşturdu!</h5>
+            <p class="card-text">
+                @if (item.SoruIcerik.Length < 50)
+                {
+                    @item.SoruIcerik
+                }
+
+                @item.SoruIcerik.Substring(0, 50) .....
+
+            </p>
+            <a asp-controller="Question" asp-action="Index" asp-route-soruId=@item.soruId class="btn btn-link">Devamını gör</a>
+        </div>
+        <div class="card-footer text-muted">
+            @if (item.Durum == true)
+            {
+                <span class="badge badge-success"><i class="fa fa-check-square"></i> Çözüldü</span>
+            }
+            else
+            {
+                <span class="badge badge-danger"><i class="fa fa-question"></i> Henüz çözülmedi!</span>
+
+            }
+
+        </div>
+    </div>
+    <hr style="border-color:black" />
+}
+

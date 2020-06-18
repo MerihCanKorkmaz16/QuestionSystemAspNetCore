@@ -1,0 +1,57 @@
+﻿@model StackOverFlowCoreProject.WebUI.Models.Account.LoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Kullanıcı Girişi</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="~/css/signin.css" rel="stylesheet" />
+    <style>
+        .validation-summary-errors ul {
+            padding-left: 0;
+            list-style: none;
+        }
+    </style>
+</head>
+<body class="text-center">
+    <form asp-controller="Account" asp-action="Login" class="form-signin">
+        <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Hoşgeldiniz</h1>
+        @if (ViewData.ModelState.Any(x => x.Value.Errors.Any()))
+        {
+            <div class="alert alert-danger" style="text-align:center">
+                <div class="validation-summary-errors" asp-validation-summary="All"></div>
+            </div>
+        }
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-success">
+                @TempData["message"]
+            </div>
+        }
+        <input type="text" asp-for="UserName" class="form-control" placeholder="Kullanıcı Adınız" required autofocus>
+        <input type="password" asp-for="Password" class="form-control" placeholder="Şifreniz" maxlength="8" required>
+        <div style="text-align:left;margin-top:-10px">
+            <a href="/Account/ForgotPassword" class="btn btn-link">Şifremi unuttum</a>
+        </div>
+        <div class="checkbox mb-3">
+            <label>
+                <input asp-for="RememberMe" type="checkbox" value="true"> Beni Hatırla
+            </label>
+        </div>
+        <div class="mb-1">
+            <a href="/Account/Register" class="btn btn-link">Henüz bir kaydınız yok mu ?</a>
+        </div>
+        <input class="btn btn-lg btn-primary btn-block" value="Giriş Yap" onclick="this.value=(this.value=='Giriş Yap')?('Giriş yapılıyor..'):('Giriş Yap')" type="submit" />
+        <p class="mt-5 mb-3 text-muted">&copy; 2017-2018</p>
+    </form>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+</body>
+</html>

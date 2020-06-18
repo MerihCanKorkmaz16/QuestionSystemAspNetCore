@@ -1,0 +1,62 @@
+﻿@model StackOverFlowCoreProject.WebUI.Models.UserSoruIndexViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (TempData["message"]!=null)
+{
+    <div class="alert alert-success" style="text-align:center">
+        @TempData["message"]
+    </div>
+}
+<input type="hidden" asp-for="soruId" />
+@foreach (var item in Model.Soru)
+{
+    <div class="card text-center mb-3">
+        <div class="card-header">
+            @item.CreatedDate.ToString("dd MMMM, yyyy") tarihinde <span>@item.UserName</span> isimli kullanıcı tarafından oluşturuldu
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                @item.SoruIcerik
+            </p>
+        </div>
+        <div class="card-footer text-muted">
+            @if (item.Durum == true)
+            {
+                <span class="badge badge-success"><i class="fa fa-check-square"></i> Çözüldü</span>
+            }
+            else
+            {
+                <span class="badge badge-danger"><i class="fa fa-question"></i> Henüz çözülmedi!</span>
+
+            }
+            <div style="text-align:right"><a class="btn btn-link" asp-controller="Question" asp-action="Comment" asp-route-soruId=@item.soruId>Soruya yanıt ver</a></div>
+            @if (Model.checkUser == true && Model.SoruDurum == false)
+            {
+                <div style="text-align:left"><a class="btn btn-link" asp-controller="Question" asp-action="CloseQuestion" asp-route-soruId=@item.soruId>Soruyu cevaplandı olarak işaretle</a></div>
+            }
+        </div>
+    </div>
+
+}
+<hr />
+@if (Model.Yorumlars.Count == 0)
+{
+    <div>şu an herhangi bir yorum yokkkkkk</div>
+}
+else
+{
+    @foreach (var item in Model.Yorumlars)
+    {
+        <div class="card border-primary mb-3" style="max-width: 100rem;">
+            <div class="card-header" style="text-align:center">@item.UserName kullanıcısı sorunuza yanıt verdi</div>
+            <div class="card-body text-primary">
+                <p class="card-text">
+                    @item.YorumIcerik
+                </p>
+            </div>
+        </div>
+    }
+
+}
