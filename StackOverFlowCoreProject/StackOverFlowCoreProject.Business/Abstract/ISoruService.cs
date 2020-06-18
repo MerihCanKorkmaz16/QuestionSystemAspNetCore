@@ -12,6 +12,7 @@ namespace StackOverFlowCoreProject.Business.Abstract
         List<Soru> GetByCategory(int categoryId);
         List<SoruDetay> GetSoruDetay(int categoryId);
         List<SoruDetay> GetUserSoru(int soruId);
+        List<SoruDetay> GetMyQuestion(string userId);
         bool SoruSorgulama(string userId);
         void SoruEkle(Soru soru);
         void SoruGüncelle(Soru soru);

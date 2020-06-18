@@ -10,6 +10,7 @@ namespace StackOverFlowCoreProject.DataAccess.Abstract
     {
         List<SoruDetay> GetAllSoruDetails(int categoryId);
         List<SoruDetay> GetUserQuestion(int soruId);
+        List<SoruDetay> GetMyQuestion(string userId);
 
     }
 }

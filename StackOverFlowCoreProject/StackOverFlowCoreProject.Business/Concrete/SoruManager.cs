@@ -32,6 +32,11 @@ namespace StackOverFlowCoreProject.Business.Concrete
             return _soruDal.Get(p => p.Id == soruId);
         }
 
+        public List<SoruDetay> GetMyQuestion(string userId)
+        {
+            return _soruDal.GetMyQuestion(userId);
+        }
+
         public Soru GetSoruById(int soruId)
         {
             return _soruDal.Get(x=>x.Id == soruId);

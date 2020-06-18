@@ -12,3 +12,17 @@ C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverF
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.csproj.CopyComplete
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.dll
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.pdb
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.deps.json
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.pdb
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.pdb
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.pdb
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.AssemblyInfoInputs.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.AssemblyInfo.cs
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.csproj.CopyComplete
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Business\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Business.pdb

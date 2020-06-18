@@ -1,0 +1,42 @@
+﻿@model StackOverFlowCoreProject.WebUI.Models.MyQuestionViewModel
+@{
+    ViewData["Title"] = "MyQuestion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@foreach (var item in Model.MyQuestions)
+{
+    <div class="card text-center">
+        <div class="card-header">
+            @item.CategoryName
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">@item.CreatedDate.ToString("dd MMMM, yyyy") tarihinde oluşturuldu</h5>
+            <p class="card-text">
+                @if (item.SoruIcerik.Length < 50)
+                {
+                    @item.SoruIcerik
+                }
+
+                @item.SoruIcerik.Substring(0, 50) .....
+
+            </p>
+            <a asp-controller="Question" asp-action="Index" asp-route-soruId=@item.soruId class="btn btn-link">Devamını gör</a>
+        </div>
+        <div class="card-footer text-muted">
+            @if (item.Durum == true)
+            {
+                <span class="badge badge-success"><i class="fa fa-check-square"></i> Çözüldü</span>
+            }
+            else
+            {
+                <span class="badge badge-danger"><i class="fa fa-question"></i> Henüz çözülmedi!</span>
+
+            }
+
+        </div>
+    </div>
+    <hr style="border-color:black"/>
+
+}
+

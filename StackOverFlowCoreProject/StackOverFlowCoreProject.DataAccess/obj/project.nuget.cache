@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y4ZZMHszn4NnNxNhzllgdacPg1rNpsWPRyY66nH3t+Owaxj6oQL4ttxKPholri8BsdDACQTJRb2n+/ZpAvAtww==",
+  "dgSpecHash": "+80LM5LIPj+vIOzuELy0it+3Vqd8/3/5pyHDy7m+3c9JZvxgCIfHB9mTtoQS+K0VHgtPDcPS+N3knuXii6t2Tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.DataAccess\\StackOverFlowCoreProject.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.DataAccess\\StackOverFlowCoreProject.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ass\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\ass\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

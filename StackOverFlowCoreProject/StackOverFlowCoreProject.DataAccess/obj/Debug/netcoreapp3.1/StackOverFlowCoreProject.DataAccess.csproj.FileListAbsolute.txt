@@ -10,3 +10,15 @@ C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverF
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.dll
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.pdb
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.deps.json
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.pdb
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.pdb
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.AssemblyInfoInputs.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.AssemblyInfo.cs
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.csproj.CopyComplete
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.DataAccess\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.DataAccess.pdb

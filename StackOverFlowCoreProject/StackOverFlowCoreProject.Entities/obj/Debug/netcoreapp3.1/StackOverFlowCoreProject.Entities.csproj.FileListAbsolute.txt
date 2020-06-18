@@ -7,3 +7,12 @@ C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverF
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.dll
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.pdb
 C:\Users\ass\Desktop\Professional projelerim\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.deps.json
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\bin\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.pdb
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.csprojAssemblyReference.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.AssemblyInfoInputs.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.AssemblyInfo.cs
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.csproj.CoreCompileInputs.cache
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.dll
+C:\Users\ass\Desktop\GitHub\QuestionSystemAspNetCore\StackOverFlowCoreProject\StackOverFlowCoreProject.Entities\obj\Debug\netcoreapp3.1\StackOverFlowCoreProject.Entities.pdb

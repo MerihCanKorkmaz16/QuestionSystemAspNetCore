@@ -90,8 +90,18 @@ namespace StackOverFlowCoreProject.WebUI.Controllers
                 model.Soru.UserId = userId;
                 _soruService.SoruEkle(model.Soru);
                 TempData["message2"] = "Sorunuz başarıyla oluşturuldu";
-                return RedirectToAction("Index","Home");
+                return RedirectToAction("Index", "Home");
             }
+            return View(model);
+        }
+
+        public IActionResult MyQuestion()
+        {
+            var userId = _userManager.GetUserId(HttpContext.User);
+            var model = new MyQuestionViewModel
+            {
+                MyQuestions = _soruService.GetMyQuestion(userId).OrderByDescending(x=>x.CreatedDate)
+            };
             return View(model);
         }
     }

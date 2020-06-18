@@ -56,6 +56,33 @@ namespace StackOverFlowCoreProject.DataAccess.Concrete
 
             }
         }
+
+        public List<SoruDetay> GetMyQuestion(string userId)
+        {
+            using (ProjectDataContext context = new ProjectDataContext())
+            {
+                var result = from p in context.AspNetUsers
+                             join c in context.Soru on p.Id equals c.UserId
+                             join z in context.Category on c.CategoryId equals z.Id
+                             where p.Id == userId
+                             select new SoruDetay
+                             {
+                                 UserId = p.Id,
+                                 FirstName = p.FirstName,
+                                 LAstName = p.LastName,
+                                 UserName = p.UserName,
+                                 CreatedDate = c.CreatedDate,
+                                 SoruIcerik = c.SoruDetay,
+                                 CategoryName = z.CategoryName,
+                                 Durum = c.Durum,
+                                 soruId = c.Id
+                             };
+                return result.ToList();
+
+            }
+
+        }
+
         public List<SoruDetay> GetUserQuestion(int soruId)
         {
             using (ProjectDataContext context = new ProjectDataContext())

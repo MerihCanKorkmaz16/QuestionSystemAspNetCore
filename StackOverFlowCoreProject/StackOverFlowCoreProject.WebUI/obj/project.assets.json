@@ -9001,11 +9001,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.WebUI\\StackOverFlowCoreProject.WebUI.csproj",
+      "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.WebUI\\StackOverFlowCoreProject.WebUI.csproj",
       "projectName": "StackOverFlowCoreProject.WebUI",
-      "projectPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.WebUI\\StackOverFlowCoreProject.WebUI.csproj",
+      "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.WebUI\\StackOverFlowCoreProject.WebUI.csproj",
       "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.WebUI\\obj\\",
+      "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.WebUI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -9024,8 +9024,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj": {
-              "projectPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj"
+            "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj": {
+              "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj"
             }
           }
         }

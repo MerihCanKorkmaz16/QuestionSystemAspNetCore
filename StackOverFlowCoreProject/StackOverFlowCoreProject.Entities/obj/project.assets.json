@@ -1804,11 +1804,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj",
       "projectName": "StackOverFlowCoreProject.Entities",
-      "projectPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj",
+      "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj",
       "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\obj\\",
+      "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

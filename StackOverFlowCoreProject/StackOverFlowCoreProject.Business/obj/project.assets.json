@@ -5817,11 +5817,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj",
+      "projectUniqueName": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj",
       "projectName": "StackOverFlowCoreProject.Business",
-      "projectPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj",
+      "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\StackOverFlowCoreProject.Business.csproj",
       "packagesPath": "C:\\Users\\ass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\obj\\",
+      "outputPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Business\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5840,11 +5840,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.DataAccess\\StackOverFlowCoreProject.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.DataAccess\\StackOverFlowCoreProject.DataAccess.csproj"
+            "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.DataAccess\\StackOverFlowCoreProject.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.DataAccess\\StackOverFlowCoreProject.DataAccess.csproj"
             },
-            "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj": {
-              "projectPath": "C:\\Users\\ass\\Desktop\\Professional projelerim\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj"
+            "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj": {
+              "projectPath": "C:\\Users\\ass\\Desktop\\GitHub\\QuestionSystemAspNetCore\\StackOverFlowCoreProject\\StackOverFlowCoreProject.Entities\\StackOverFlowCoreProject.Entities.csproj"
             }
           }
         }
